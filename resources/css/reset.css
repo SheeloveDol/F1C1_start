@@ -395,7 +395,7 @@ header .mobile {
 header .mobile ul {
   display: flex;
   justify-content: space-between;
-  height: 48px;
+  height: 96px;
   align-items: center;
   padding: 0 32px;
   
@@ -407,25 +407,68 @@ header .mobile ul li {
 }
 
 .mobile img {
-  width: 38px;
-  height: 32px;
+  width: 76px;
+  height: 64px;
 }
 
 .mobile .button {
   background-color: #9DC20B;
-  padding: 3px 8px;
+  padding: 6px 16px;
   color: white; 
-  font-size: 28px;
+  font-size: 46px;
   border-radius: 4px;
 }
 
 /* Main Content */
 
 .main-content .banner {
-  border: 2px solid red;
+
   background-image: url("/resources/images/banner-landingpage.jpg");
-  background-position: center;
-  background-size;
+  background-position: right;
+  background-size: cover;
   width: 100%;
-  height: 480px;
+  height: 900px;
+}
+
+/* Main Content */
+#sign-up-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#sign-up-section .email {
+
+  display: none;
+}
+
+#sign-up-cta {
+  border: 5px solid green;
+}
+
+#sign-up-section .content {
+
+  border: 1px solid red;
+}
+
+#sign-up-section .header {
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+}
+
+#sign-up-section .header .cursive {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 42px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+#sign-up-section .striking {
+  font-size: 68px;
+  font-family: Rubik;
+  line-height: 1.4;
+  font-weight: bold;
 }
