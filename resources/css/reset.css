@@ -381,206 +381,222 @@ header nav ul {
 }  */
 
 
-header .desktop {
-  display: none;
-}
 
-header .content {
+/* #### Mobile section media query #### */
 
-}
+@media only screen and (max-width: 500px) {
 
-header .mobile {
-}
+  header .desktop {
+    display: none;
+  }
 
-header .mobile ul {
-  display: flex;
-  justify-content: space-between;
-  height: 96px;
-  align-items: center;
-  padding: 0 32px;
-  
-}
+  header .mobile ul {
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    align-items: center;
+    padding: 0 32px;
+    
+  }
 
-header .mobile ul li {
-  /* border: 1px solid blue; */
-  
-}
+  header .mobile ul li {
+    /* border: 1px solid blue; */
+    
+  }
 
-.mobile img {
-  width: 76px;
-  height: 64px;
-}
+  .mobile img {
+    width: 76px;
+    height: 64px;
+  }
 
-.mobile .button {
-  background-color: #9DC20B;
-  padding: 6px 16px;
-  color: white; 
-  font-size: 46px;
-  border-radius: 4px;
-}
+  .mobile .button {
+    background-color: #9DC20B;
+    padding: 6px 16px;
+    color: white; 
+    font-size: 46px;
+    border-radius: 4px;
+  }
 
-/* Main Content */
+  /* Main Content */
 
-.main-content .banner {
+  .main-content .banner {
 
-  background-image: url("/resources/images/banner-landingpage.jpg");
-  background-position: right;
-  background-size: cover;
-  width: 100%;
-  height: 900px;
-}
+    background-image: url("/resources/images/banner-landingpage.jpg");
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+  }
 
-/* Main Content */
-#sign-up-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  /* Main Content */
+  #sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
-#sign-up-section .email {
+  #sign-up-section .email {
 
-  display: none;
-}
+    display: none;
+  }
 
 
 
 
 
-#sign-up-section .header {
-  text-align: center;
-  color: white;
-}
+  #sign-up-section .header {
+    text-align: center;
+    color: white;
+  }
 
-#sign-up-section .header .cursive {
-  font-style: italic;
-  font-family: cursive;
-  font-size: 42px;
-  line-height: 1.4;
-  font-weight: bold;
-}
+  #sign-up-section .header .cursive {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 42px;
+    line-height: 1.4;
+    font-weight: bold;
+  }
 
-#sign-up-section .striking {
-  font-size: 68px;
-  font-family: Rubik;
-  line-height: 1.4;
-  font-weight: bold;
-}
+  #sign-up-section .striking {
+    font-size: 68px;
+    font-family: Rubik;
+    line-height: 1.4;
+    font-weight: bold;
+  }
 
-/* Features Section */
+  /* Features Section */
 
-#feature-section {
-  
-}
+  #feature-section {
+    
+  }
 
-#features-section .feature {
-  background-color: white;
-}
+  #features-section .feature {
+    background-color: white;
+  }
 
-#features-section .feature.left {
-  /* border: 2px solid red; */
-  background-color: lightgray;
-}
-
-
-
-#features-section .center {
-  
-  padding: 16px 16px;
-  text-align: center;
-}
+  #features-section .feature.left {
+    /* border: 2px solid red; */
+    background-color: lightgray;
+  }
 
 
-#features-section .center .image-container {
 
-  width: 100%;
-  height: auto;
-}
-
-.feature img {
-  width: 100%;
-  height: auto;
-}
-
-.center .content h2 {
-  font-size: 18px;
-  font-family: Roboto;
-  line-height: 1.3;
-  margin: 30px 0;
-  color:#4A4A4A;
-  
-}
-
-.center .content h3 {
-  font-size: 14px;
-  font-family: Roboto;
-  line-height: 1.4;
-  font-weight: lighter;
-  color:#4A4A4A;
-  padding-bottom: 30px;
-}
-
-/* Filters Section */
-
-#filters-section .center {
-  text-align: center;
-  background-color:#5a5959;
-  color: white;
-  opacity: 100%;
-  padding: 30px;
-}
-
-#filters-section .images-container {
-  display: flex;
-  width: 100%;
-  
-}
-
-#filters-section .extra {
-  display: none;
-}
+  #features-section .center {
+    
+    padding: 16px 16px;
+    text-align: center;
+  }
 
 
-#filters-section .image-container img {
-  max-width: 100%;
-}
+  #features-section .center .image-container {
 
-#filters-section h2 {
-  font-size: 18px;
-  font-family: Roboto;
-  line-height: 1.3;
-  margin: 30px;
-}
+    width: 100%;
+    height: auto;
+  }
 
-#filters-section h3 {
-  font-size: 14px;
-  font-family: Roboto;
-  line-height: 1.4;
-  margin: 0 60px;
-  margin-bottom: 40px;
-}
+  .feature img {
+    width: 100%;
+    height: auto;
+  }
 
-/* Quotes Section */
+  .center .content h2 {
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 1.3;
+    margin: 30px 0;
+    color:#4A4A4A;
+    
+  }
 
-#quotes-section {
-}
+  .center .content h3 {
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 1.4;
+    font-weight: lighter;
+    color:#4A4A4A;
+    padding-bottom: 30px;
+  }
 
-#quotes-section .center {
-  text-align: center;
-}
+  /* Filters Section */
 
-.quote {
-  display: block;
-  font-family: Palatino;
-  font-style: italic;
-  color: #4A4A4A;
-  font-size: 60px;
-  line-height: 1.4;
-  padding: 100px 120px 20px 120px;
-}
+  #filters-section .center {
+    text-align: center;
+    background-color:#5a5959;
+    color: white;
+    opacity: 100%;
+    padding: 30px;
+  }
 
-.quote-citation {
-  width: 250px;
-  margin-top: 10px;
-  margin-bottom: 80px
+  #filters-section .images-container {
+    display: flex;
+    width: 100%;
+    
+  }
+
+  #filters-section .extra {
+    display: none;
+  }
+
+
+  #filters-section .image-container img {
+    max-width: 100%;
+  }
+
+  #filters-section h2 {
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 1.3;
+    margin: 30px;
+  }
+
+  #filters-section h3 {
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 1.4;
+    margin: 0 60px;
+    margin-bottom: 40px;
+  }
+
+  /* Quotes Section */
+
+  #quotes-section {
+  }
+
+  #quotes-section .center {
+    text-align: center;
+  }
+
+  .quote {
+    display: block;
+    font-family: Palatino;
+    font-style: italic;
+    color: #4A4A4A;
+    font-size: 60px;
+    line-height: 1.4;
+    padding: 100px 120px 20px 120px;
+  }
+
+  .quote-citation {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 80px
+  }
+
+  /* Footer */
+
+  footer .content {
+    background-color: #9B9B9B;
+    color: white;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    padding: 30px 30px;
+  }
+
+  footer .copyright, .location {
+    font-size: 32px;
+  }
 }
